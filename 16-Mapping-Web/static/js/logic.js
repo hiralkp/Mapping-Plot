@@ -3,7 +3,7 @@
 
 
 
-function createMap(earthquakePins)
+function createMap(earthquakePins){
 // Add a tile layer (the background map image) to our map
 // We use the addTo method to add objects to our map
 L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
@@ -32,7 +32,7 @@ var baseLayer =  {
 	"Light": lightmap,
 	"Outdoor": outdoormap
 
-};
+}};
 
 
 var map = L.map("map", {
